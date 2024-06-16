@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS movies_v2 (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT NOT NULL,
+    title TEXT NOT NULL UNIQUE,
     director TEXT NOT NULL,
     actors_and_actresses TEXT NOT NULL,
     genres TEXT NOT NULL
