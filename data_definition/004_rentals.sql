@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS rentals (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     customer_name TEXT NOT NULL,
     customer_phone_number TEXT NOT NULL,
-    movie_id INTEGER NOT NULL REFERENCES movies_v4(id),
+    movie_id INTEGER NOT NULL REFERENCES movies_v3(id),
     rental_date TEXT NOT NULL,
     due_date TEXT NOT NULL,
     return_date TEXT,
