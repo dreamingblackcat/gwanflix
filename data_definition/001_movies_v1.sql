@@ -1,6 +1,8 @@
+DROP TABLE IF EXISTS movies;
+
 CREATE TABLE IF NOT EXISTS movies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT NOT NULL UNIQUE,
+    title TEXT NOT NULL,
     director TEXT NOT NULL,
     genres TEXT NOT NULL,
     rating REAL NOT NULL,
