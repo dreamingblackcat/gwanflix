@@ -5,7 +5,7 @@ UPDATE rentals SET return_date = '2024-06-22' WHERE id = 1;
 UPDATE rentals SET return_date = '2024-06-22' WHERE id = 2;
 
 -- Chris returned his rental of "The Godfather" one day late.
-UPDATE rentals SET return_date = '2024-06-24' WHERE id = 3;
+UPDATE rentals SET return_date = DATE(due_date, '+1 day') WHERE id = 3;
 
 -- Get rentals made by Emma
 SELECT * FROM rentals WHERE customer_name = 'Emma';
@@ -13,11 +13,17 @@ SELECT * FROM rentals WHERE customer_name = 'Emma';
 -- Emma returned her rental back on the same day she rented it because she changed her mind.
 DELETE FROM rentals WHERE id = 5;
 
--- Renatls made after 2024-06-22
+-- Rentals made after 2024-06-22
 SELECT * FROM rentals WHERE rental_date > '2024-06-22';
 
--- Renatls made after 2024-06-22 with DATE function
-SELECT * FROM rentals WHERE DATE(rental_date) > DATE('2024-06-22');
+-- Rentals due on today
+SELECT * FROM rentals WHERE DATE(due_date) >= DATE('now');
+
+-- Rentals due on today and not returned yet
+SELECT * FROM rentals WHERE DATE(due_date) >= DATE('now') AND return_date IS NULL;
+
+-- Extend the due date for the rental of "The Godfather" by one day
+UPDATE rentals SET due_date = DATE(due_date, '+1 day') WHERE movie_id = 2;
 
 
 -- Joining movies and rentals to get the movie title and the customer name

@@ -7,7 +7,9 @@ Emma returned her rental back on the same day she rented it because she changed 
 
 
 Rentals made after 2024-06-22
-Rentals made after 2024-06-22 with DATE function
+Rentals due on today
+Rentals due on today and not returned yet
+Extend the due date for the rental of "The Godfather" by one day
 Joining movies and rentals to get the movie title and the customer name
 Movies already rented by Alice
 Top drama movies recommended for Alice

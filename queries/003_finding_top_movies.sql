@@ -14,3 +14,7 @@ SELECT * FROM movies LIMIT 5 OFFSET 5;
 
 -- Give me the third page of movies in your store.
 SELECT * FROM movies LIMIT 5 OFFSET 10;
+
+-- Practice Homework
+-- Finish the following excercises in SQLBolt tutorial
+-- https://sqlbolt.com/lesson/filtering_sorting_query_results
