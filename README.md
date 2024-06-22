@@ -22,56 +22,39 @@ Each SQL file is prefixed with version in 0-padded 3-digit version number. Eg. d
 
 # References
 
-https://github.com/awesomedata/awesome-public-datasets?tab=readme-ov-file
-
 SQlite3 cli usage basic - Tutorial
 
 https://www.youtube.com/watch?v=dFzJ4UPNL1w
 
 SQLite3 in production - Talk
-
 https://www.youtube.com/watch?v=yTicYJDT1zE
 
-**GopherCon 2021: Ben Johnson - Building production Applications Using Go & SQLite**
-
-https://www.youtube.com/watch?v=XcAYkriuQ1o
-
 SQLite GUI in a browser
-
 https://sqlime.org/
 
 SQL playground in a browser
-
 https://sql-playground.wizardzines.com/
 
 Interactive SQL tutorial
-
 https://sqlbolt.com/
 
 Animated SQL joins
-
 https://dataschool.com/how-to-teach-people-sql/ (Awesome series)
 
 Interactive visualization for SQL statements (Awesome way to demonstrate)
-
 https://animatesql.com/
 
 SQLite date func
-
 https://www.sqlite.org/lang_datefunc.html
 
 Dates in SQLITE
-
 https://www.youtube.com/watch?v=nJRvz5Rhrx0
 
 Database Normalization
-
 https://youtu.be/GFQaEYEc8_8?si=2m-6hNHSd4TpmUtW
 
 Fireship - MySQL Basics
-
 https://youtu.be/Cz3WcZLRaWc?si=-RZlLegh3SY8qiOu
 
 code bro - MySQL full course
-
 https://youtu.be/5OdVJbNCSso?si=Y8BAlUlKUrWHrm9N
