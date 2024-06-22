@@ -58,3 +58,6 @@ https://youtu.be/Cz3WcZLRaWc?si=-RZlLegh3SY8qiOu
 
 code bro - MySQL full course
 https://youtu.be/5OdVJbNCSso?si=Y8BAlUlKUrWHrm9N
+
+Draw DB relationship diagrams
+https://app.diagrams.net/
